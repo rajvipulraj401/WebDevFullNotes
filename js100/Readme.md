@@ -108,7 +108,6 @@
   - **Array**: A special type of object that stores a list of values. Example: `[1, 2, 3]`.
   - **Function:** Represents a block of code that can be called (e.g., `function() { return 'Hello'; }`).
 
-Here's an updated and structured explanation for variables in JavaScript, including the requested table and clarifications:
 
 ---
 
