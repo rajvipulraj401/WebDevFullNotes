@@ -8,17 +8,17 @@
 ---
 
 1. **What is an Algorithm or Task?**
-   - **Answer:** When we achieve something by following a series of steps, we call it a task or algorithm.
+    **Answer:** When we achieve something by following a series of steps, we call it a task or algorithm.
 
 2. **What is an IDE?**
-   - **Answer:** IDE stands for Integrated Development Environment. It's a place where we can write and develop code. It's called "integrated" because it can handle multiple programming languages in one environment.
+    **Answer:** IDE stands for Integrated Development Environment. It's a place where we can write and develop code. It's called "integrated" because it can handle multiple programming languages in one environment.
 
 2.1 **What are Keywords ?**
 
 Keywords in programming are reserved words that have special meanings in the language and cannot be used as identifiers. ex for, break , while , var etc
 
 3. **What is a Compiler?**
-   - **Answer:** A compiler is a tool that translates the code we write in a high-level or low-level language into machine code, which the computer can understand and execute.
+    **Answer:** - A compiler is a tool that translates the code we write in a high-level or low-level language into machine code, which the computer can understand and execute.
    - **For Example:**
      - **JavaScript** is a high-level language.
      - **Examples of JavaScript Compilers:**
@@ -27,10 +27,10 @@ Keywords in programming are reserved words that have special meanings in the lan
    - The compiler takes your JavaScript code and translates it into machine code, which runs directly on your computer's hardware.
 
 4. **What is a Sequence?**
-   - **Answer:** A sequence is a set of rules or instructions that you follow one after another to complete a task.
+   **Answer:**- A sequence is a set of rules or instructions that you follow one after another to complete a task.
 
 5. **What is a Program?**
-   - **Answer:** When we take a task and write it in a programming language so that a machine can understand and perform it, this is called a program.
+   **Answer:** When we take a task and write it in a programming language so that a machine can understand and perform it, this is called a program.
 
 6. **What is Debugging?**
    - **Answer:** Debugging is not just about fixing errors; it’s also about spotting them. It involves:
