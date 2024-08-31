@@ -1,6 +1,4 @@
-Here are the full, revised notes with correct numbering:
 
----
 
 ### JavaScript 101
 
