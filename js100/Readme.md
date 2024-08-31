@@ -15,7 +15,7 @@
 
 2.1 **What are Keywords ?**
 
-Keywords in programming are reserved words that have special meanings in the language and cannot be used as identifiers. ex for, break , while , var etc
+- **Answer:** Keywords in programming are reserved words that have special meanings in the language and cannot be used as identifiers. ex for, break , while , var etc
 
 3. **What is a Compiler?**
    - **Answer:** A compiler is a tool that translates the code we write in a high-level or low-level language into machine code, which the computer can understand and execute.
