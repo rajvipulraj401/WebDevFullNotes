@@ -18,13 +18,12 @@
 - **Answer:** Keywords in programming are reserved words that have special meanings in the language and cannot be used as identifiers. ex for, break , while , var etc
 
 3. **What is a Compiler?**
-   - **Answer:** A compiler is a tool that translates the code we write in a high-level or low-level language into machine code, which the computer can understand and execute.
+   - **Answer:** A compiler is a tool that translates the code we write in a high-level or low-level language into machine code, which the computer can understand and execute. The compiler takes your JavaScript code and translates it into machine code, which runs directly on your computer's hardware.
    - **For Example:**
      - **JavaScript** is a high-level language.
      - **Examples of JavaScript Compilers:**
        - **V8:** Used in Google Chrome.
        - **SpiderMonkey:** Used in Mozilla Firefox.
-   - The compiler takes your JavaScript code and translates it into machine code, which runs directly on your computer's hardware.
 
 4. **What is a Sequence?**
    - **Answer:** A sequence is a set of rules or instructions that you follow one after another to complete a task.
