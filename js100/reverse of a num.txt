@@ -1,0 +1,37 @@
+onEvent("button1", "click", function( ) {
+  var num = getNumber("text_input1"); //Get the first number entered by user from text_input1 box & assign it to first
+  
+    if (isNaN(num)) { 
+      // if the entered number is not a number then return nota valid number 
+        conosle.log( "Enter a number not alphanumeric characters");
+        return "not a valid number";  // Input is not a number
+    }
+ 
+    // Check if number is less than 0
+    if (num < 0) {
+        console.log( "Enter number greater than 0");
+      return"Enter number greater than 0"  ;
+    }
+    
+     setText("labelreversed", reverse(num));;
+    
+    
+    // now  we willmake a variable for rem , rev and change the num for eliminating last digit
+    // we will keep reversing till the actual number is greater than 0 
+    
+    
+ function reverse (num){
+     var rev = 0;
+   while (num>0){
+    var rem = num%10;
+    rev = rev*10 +rem;
+    num =Math.floor(num/10);
+   }
+     
+      
+      return rev;
+
+ }
+    
+
+});

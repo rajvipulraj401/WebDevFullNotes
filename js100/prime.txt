@@ -1,0 +1,39 @@
+onEvent("button1", "click", function( ) {
+  var num = getNumber("text_input1"); //Get the first number entered by user from text_input1 box & assign it to first
+  
+    if (isNaN(num)) { 
+      // if the entered number is not a number then return nota valid number 
+        console.log("Enter a number not alphanumeric characters");
+        return "not a valid number";  // Input is not a number
+    }
+ 
+    // Check if number is less than 0
+    if (num < 2) {
+        console.log("Enter number greater than 2");
+      return"Enter number greater than 0"  ;
+    }
+    
+     setText("label1", checkPrime(num));;
+    
+    
+    // now  we willmake a variable for rem , rev and change the num for eliminating last digit
+    // we will keep reversing till the actual number is greater than 0 
+    
+    
+ function checkPrime (n){
+    
+   for (i=2;i<n;i++){
+     if (n%i==0){
+       return "is not a prime"
+     }
+   }
+   return "is a prime"
+  // if upar return nahi hua iska matlab prime hai 
+     
+      
+
+ }
+    
+
+});
+

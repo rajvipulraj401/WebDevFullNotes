@@ -1,0 +1,33 @@
+// onEvent("button1", "click", function( ) {
+  
+  
+  // var num = getNumber("text_input1");
+  // setText("label1",  fact(num));
+  
+// now we will create the function declartaion .
+
+function fact(n){
+  
+  if(n<0 || isNaN(n) ){
+    // agr number nahi hai ya negative hai toh return invalid input
+    return "invalid input";
+  }
+  
+  if (n<2){
+    console.log(1)
+    return 1;
+  }
+  var product = 1;
+  
+  for (var i =1;i<=n ;i++){
+  product *= i;
+    
+   }
+  // return product;
+  console.log(product);
+  }
+  
+
+// });
+
+fact(5);

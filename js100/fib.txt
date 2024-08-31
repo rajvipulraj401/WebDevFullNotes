@@ -1,0 +1,57 @@
+onEvent("button1", "click", function( ) {
+  var num = getNumber("text_input1"); //Get the num entered by user from text_input1 box & assign it
+    
+  // var second = __; //Get the second number entered by user from text_input2 box & assign it to second
+  // var third = __;
+  
+  
+  var first = 0;
+  var second = 1;
+  var output = "";
+  
+  fib(num);
+  // call the fib function.
+  
+  
+  function fib(n){
+    
+    
+    if (n<0 || isNaN(n)==true ){
+      console.log("invalid number");
+      return "invalid number"
+    }
+    
+    else if(n==1 ){
+      console.log(0);
+      return ;
+      
+    }
+    
+    else if(n==2){
+      // agr input 2 hai toh starting first two number print kro.
+         console.log(0);
+         console.log(1);
+      return ;
+    }
+    
+    for(i=1; i<=n;i++){
+      // ek loop chalao 1 se leke n tk aur print krte jao fibonacci ko .
+
+      console.log(first);
+      // sabse pehle  first fib print kro phir  teesra fibonacci number ko banao.
+      
+      output = first+second;
+      
+      // now we will do swap kyunki third no aagya hai .
+      
+      first = second;
+      second = output ;
+      
+      
+    }
+    
+  }
+  
+});
+
+

@@ -1,0 +1,31 @@
+
+function interestCalculator(P,R,T){
+  
+  if(P<0 || R<0|| T<0|| isNaN(P) ||isNaN(R) ||isNaN(T)){
+    // agr number nahi hai ya negative hai toh return invalid input
+      console.log("invalid input");
+    return "invalid input";
+  }
+  
+  
+  //  if the number is not invalid then call the function celsi
+  
+  console.log(ciCalc(P,R,T));
+  console.log(siCalc(P,R,T));
+  
+  
+  function ciCalc(Principal,Rate,Time) {
+    
+    var ci = Principal * (Math.pow((1 + Rate / 100), Time) - 1);
+    return ci;
+  }
+  
+  function siCalc (P,R,T){
+    
+    var si = (P * R * T) / 100;
+    
+    return (si);
+  }
+  
+}
+interestCalculator(2000,10,2 );
