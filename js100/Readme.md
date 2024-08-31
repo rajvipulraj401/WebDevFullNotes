@@ -452,7 +452,7 @@ console.log(fishcount); // Outside the function, will throw a ReferenceError
       ReferenceError: fishcount is not defined
 ```
       
-- **Notes:**
+**Notes:**
 -    - **Function Scope:** The variable `fishcount` is declared inside the `fish` function using `var`. This makes `fishcount` a local variable, meaning it is only accessible within the `fish` function.
       - **Global Scope:** After the `fish` function is called, the code tries to execute `console.log(fishcount);` outside the function. Since `fishcount` is not declared in the global scope, JavaScript throws a `ReferenceError`, indicating that `fishcount` is not defined.
 
