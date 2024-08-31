@@ -182,16 +182,20 @@ let x = 5; // This is a statement that declares a variable and assigns it a valu
 ```javascript
 2 + 2 // This is an expression that evaluates to 4.
 ```
-Difference :------------
+Here’s a revised version of the notes with clearer distinctions between statements and expressions:
 
-Statement: Executes an action or command.
-Example: console.log('Hello, World!'); — This statement prints a message to the console.
-(Hence it is doing something it is not producing a value)
+---
 
+**Difference between statement and Expression:**
 
-Expression: Produces a value when evaluated.
-Example: x > 10 — This expression evaluates to a boolean value (true or false) based on the condition.
-(Hence it is producing a value when the expression is evaluated)
+- **Statement**: Executes an action or command. It performs an operation and may produce side effects, but it does not return a value that can be used in further expressions. 
+  - **Example**: `console.log('Hello, World!');` — This statement outputs a message to the console. It performs an action but does not produce a value that can be used further.
+
+- **Expression**: Produces a value when evaluated. It calculates and returns a value that can be used in other expressions or operations. 
+  - **Example**: `x > 10` — This expression evaluates to a boolean value (`true` or `false`) based on the condition. It produces a value (the result of the comparison) that can be used in other expressions or assignments.
+
+---
+
 
 
 ### 4. What is a Value?
