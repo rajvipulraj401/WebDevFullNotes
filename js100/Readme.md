@@ -429,13 +429,11 @@ console.log(grade); // Output will be "B+" if hasExtraCredit is true
 
 
 
-
 ### 14. Understanding the Scope Issue with the `fish` Function
 
 #### Problem Name: **Understanding Function Scope in JavaScript**
 
-
-    - **Answer:**-   In the provided code, the `fishcount` variable is declared inside the `fish` function, making it local to that function. This means it cannot be accessed outside the function, which is why a `ReferenceError` is thrown when you try to log it outside the function.
+- **Answer:**-   In the provided code, the `fishcount` variable is declared inside the `fish` function, making it local to that function. This means it cannot be accessed outside the function, which is why a `ReferenceError` is thrown when you try to log it outside the function.
 
 ```javascript
 function fish() {
@@ -448,14 +446,17 @@ console.log(fishcount); // Outside the function, will throw a ReferenceError
 ```
 
  #### **Output:**
-      ```
+ 
+  ```
       1
       ReferenceError: fishcount is not defined
-      ```
-    - **Notes:**
-      - **Function Scope:** The variable `fishcount` is declared inside the `fish` function using `var`. This makes `fishcount` a local variable, meaning it is only accessible within the `fish` function.
+```
+      
+- **Notes:**
+-    - **Function Scope:** The variable `fishcount` is declared inside the `fish` function using `var`. This makes `fishcount` a local variable, meaning it is only accessible within the `fish` function.
       - **Global Scope:** After the `fish` function is called, the code tries to execute `console.log(fishcount);` outside the function. Since `fishcount` is not declared in the global scope, JavaScript throws a `ReferenceError`, indicating that `fishcount` is not defined.
-      - **Explanation:** Local Variables: Variables declared with `var`, `let`, or `const` inside a function are local to that function and cannot be accessed outside of it. Global Variables: Variables declared outside of any function are global and can be accessed from anywhere in the code.
+
+**Explanation:** Local Variables: Variables declared with `var`, `let`, or `const` inside a function are local to that function and cannot be accessed outside of it. Global Variables: Variables declared outside of any function are global and can be accessed from anywhere in the code.
 
 
 Note2 --It is not undefined cause it is already defined but the compiler will not be able to access it hence it will throw reference Error because it is not able to access that scope.(var is a function scope so yaha var globally declare hota toh access ho jata)
