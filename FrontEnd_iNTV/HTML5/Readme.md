@@ -55,7 +55,7 @@ Q3) What is the difference between HTML tags and HTML elements?
 Ans -Difference Between HTML Tags and HTML Elements
 
 **HTML Tags**:
--  HTML Tags of an opening tag and a closing tag which is used to mark the beginning and end of an HTML element
+-  HTML Tags consists of an opening tag and a closing tag which is used to mark the beginning and end of an HTML element
 
 **HTML Elements**:
 - HTML elements are the complete structure created  using both the tags and the content. For example, if we have a paragraph element with the content "hello," Then for this we have an opening tag, content, and a closing tag. This whole together is called an element.
