@@ -234,9 +234,7 @@ IntvAns ---
 
 
 
-❌❌❌❌no write detailed❌❌❌❌❌❌
-
-**DetailedAns** -HTML lists are used to group related items together. They help in organizing content in a structured manner, making it easier for users to read and understand. The three main types of lists in HTML are:
+ -HTML lists are used to group related items together. They help in organizing content in a structured manner, making it easier for users to read and understand. The three main types of lists in HTML are:
 
 1. **Ordered List**:
    - Displays elements in a numbered format.
