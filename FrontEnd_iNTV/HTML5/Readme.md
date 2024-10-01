@@ -234,7 +234,8 @@ IntvAns ---
 
 
 
-❌❌❌❌no write detailed
+❌❌❌❌no write detailed❌❌❌❌❌❌
+
 **DetailedAns** -HTML lists are used to group related items together. They help in organizing content in a structured manner, making it easier for users to read and understand. The three main types of lists in HTML are:
 
 1. **Ordered List**:
@@ -326,7 +327,8 @@ Q12) What is an Image Map in HTML?
 (very helpful when we have different shape images like shoes and we want to cover the whole image so when user hover on it it becomes clickable making it precise and pixel perfect)`
 
 
-❌❌❌❌no write detailed
+❌❌❌❌no write detailed❌❌❌❌❌❌
+
 ####  Detailed Ans -- 
 An **image map** in HTML is an image with clickable areas, known as **hotspots**, that link to different destinations or trigger specific actions when clicked. You can define specific areas on the image to act as links, making different parts of the image interactive.
 
@@ -594,7 +596,8 @@ Yes, it's possible to change the color of the bullet in several ways:
 
 ####For detail answer visit github and understand it clearly
 
-❌❌❌❌no write detailed
+❌❌❌❌no write detailed❌❌❌❌❌❌
+
 ###Detail Answer ---- 
 Yes, you can change the color of the bullet points in a list using several methods. Here are some ways to do it:
 
