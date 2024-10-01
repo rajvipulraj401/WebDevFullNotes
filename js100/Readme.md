@@ -103,7 +103,7 @@
   - **Symbol**: Represents a unique identifier (introduced in ES6).
   - **BigInt**: Used to represent integers larger than `2^53 - 1`.
 
-- **Non-Primitive Data Types**: -- This is basically object which can be mutated and primitive on other hand can't be mutated 
+- **Non-Primitive Data Types**: -- This is basically object which can be mutated  (and these also have inbuild methods attached to it  as these are objects afterall in javascript ) and primitive on other hand can't be mutated 
   - **Object**: Used to store collections of data or more complex entities. Example: `{name: "Vipul", age: 22}`.
   - **Array**: A special type of object that stores a list of values. Example: `[1, 2, 3]`.
   - **Function:** Represents a block of code that can be called (e.g., `function() { return 'Hello'; }`).
