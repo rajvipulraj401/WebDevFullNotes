@@ -1,4 +1,4 @@
- NOTE -DO NOT WRITE DETAILED ANS JO SIRF ANS NAAM SE HAI YA intvAns NAAME SE WO PAART ANS KA LIKHNA .  NOW START 👇🏼👇🏼👇🏼
+ # NOTE -DO NOT WRITE DETAILED ANS JO SIRF ANS NAAM SE HAI YA intvAns NAAME SE WO PAART ANS KA LIKHNA .  NOW START 👇🏼👇🏼👇🏼
 
 Q0) What is HTML?
 
@@ -53,7 +53,7 @@ Q3) What is the difference between HTML tags and HTML elements?
 Ans -Difference Between HTML Tags and HTML Elements
 
 **HTML Tags**:
--  HTML Tags of an opening tag and a closing tag which is used to mark the beginning and end of an HTML element
+-  HTML Tags consists of an opening tag and a closing tag which is used to mark the beginning and end of an HTML element
 
 **HTML Elements**:
 - HTML elements are the complete structure created  using both the tags and the content. For example, if we have a paragraph element with the content "hello," Then for this we have an opening tag, content, and a closing tag. This whole together is called an element.
@@ -231,9 +231,7 @@ IntvAns ---
 3. **Definition List (`<dl>`)**: This type of list is used for defining terms and their descriptions, similar to a dictionary. Each term is defined using the `<dt>` tag, and its description is provided using the `<dd>` tag. Definition lists are useful for glossaries, FAQs, or any content that requires term-definition pairs.
 
 
-
-❌❌❌❌no write detailed
-**DetailedAns** -HTML lists are used to group related items together. They help in organizing content in a structured manner, making it easier for users to read and understand. The three main types of lists in HTML are:
+-HTML lists are used to group related items together. They help in organizing content in a structured manner, making it easier for users to read and understand. The three main types of lists in HTML are:
 
 1. **Ordered List**:
    - Displays elements in a numbered format.
@@ -323,8 +321,8 @@ Q12) What is an Image Map in HTML?
 
 (very helpful when we have different shape images like shoes and we want to cover the whole image so when user hover on it it becomes clickable making it precise and pixel perfect)`
 
+❌❌❌❌no write detailed❌❌❌❌
 
-❌❌❌❌no write detailed
 ####  Detailed Ans -- 
 An **image map** in HTML is an image with clickable areas, known as **hotspots**, that link to different destinations or trigger specific actions when clicked. You can define specific areas on the image to act as links, making different parts of the image interactive.
 
@@ -592,7 +590,8 @@ Yes, it's possible to change the color of the bullet in several ways:
 
 ####For detail answer visit github and understand it clearly
 
-❌❌❌❌no write detailed
+❌❌❌❌no write detailed❌❌❌❌
+
 ###Detail Answer ---- 
 Yes, you can change the color of the bullet points in a list using several methods. Here are some ways to do it:
 
