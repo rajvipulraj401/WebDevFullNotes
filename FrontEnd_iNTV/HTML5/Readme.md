@@ -1,6 +1,4 @@
-
-
- # NOTE -DO NOT WRITE DETAILED ANS JO SIRF ANS NAAM SE HAI YA intvAns NAAME SE WO PAART ANS KA LIKHNA .  NOW START 👇🏼👇🏼👇🏼
+ NOTE -DO NOT WRITE DETAILED ANS JO SIRF ANS NAAM SE HAI YA intvAns NAAME SE WO PAART ANS KA LIKHNA .  NOW START 👇🏼👇🏼👇🏼
 
 Q0) What is HTML?
 
@@ -55,7 +53,7 @@ Q3) What is the difference between HTML tags and HTML elements?
 Ans -Difference Between HTML Tags and HTML Elements
 
 **HTML Tags**:
--  HTML Tags consists of an opening tag and a closing tag which is used to mark the beginning and end of an HTML element
+-  HTML Tags of an opening tag and a closing tag which is used to mark the beginning and end of an HTML element
 
 **HTML Elements**:
 - HTML elements are the complete structure created  using both the tags and the content. For example, if we have a paragraph element with the content "hello," Then for this we have an opening tag, content, and a closing tag. This whole together is called an element.
@@ -234,7 +232,8 @@ IntvAns ---
 
 
 
- -HTML lists are used to group related items together. They help in organizing content in a structured manner, making it easier for users to read and understand. The three main types of lists in HTML are:
+❌❌❌❌no write detailed
+**DetailedAns** -HTML lists are used to group related items together. They help in organizing content in a structured manner, making it easier for users to read and understand. The three main types of lists in HTML are:
 
 1. **Ordered List**:
    - Displays elements in a numbered format.
@@ -325,8 +324,7 @@ Q12) What is an Image Map in HTML?
 (very helpful when we have different shape images like shoes and we want to cover the whole image so when user hover on it it becomes clickable making it precise and pixel perfect)`
 
 
-❌❌❌❌no write detailed❌❌❌❌❌❌
-
+❌❌❌❌no write detailed
 ####  Detailed Ans -- 
 An **image map** in HTML is an image with clickable areas, known as **hotspots**, that link to different destinations or trigger specific actions when clicked. You can define specific areas on the image to act as links, making different parts of the image interactive.
 
@@ -594,8 +592,7 @@ Yes, it's possible to change the color of the bullet in several ways:
 
 ####For detail answer visit github and understand it clearly
 
-❌❌❌❌no write detailed❌❌❌❌❌❌
-
+❌❌❌❌no write detailed
 ###Detail Answer ---- 
 Yes, you can change the color of the bullet points in a list using several methods. Here are some ways to do it:
 
@@ -1001,6 +998,11 @@ To add inline style to an HTML element, we use the `style` attribute directly wi
 ```html
 <h1 style="color: blue;">This is a blue heading</h1>
 ```
+
+### Why Use Quotes for Inline Styles?
+The CSS properties and values within the `style` attribute are enclosed in quotes to ensure that the entire string is treated as a single attribute value. This is important because the value of the `style` attribute can contain spaces, colons, and semicolons, which are used to separate different CSS properties and values. Enclosing the value in quotes ensures that the browser correctly interprets the entire string as the value of the `style` attribute.
+
+
 ---
 
 Q33)What are the different kinds of Doctypes available? 
@@ -1082,8 +1084,12 @@ In HTML, attributes and properties represent different aspects of elements:
  Q36) What is the purpose of the 'doctype' declaration in HTML documents?what will happen if it is not present there?
 
  Intv Ans --  
-The `<!DOCTYPE>` declaration serves as an instruction to the browser about which version of HTML or XHTML is being used to render the page. For example, `<!DOCTYPE html>` specifies that the document is using HTML5. It is not an HTML tag but an instruction placed at the start of the HTML document to ensure the browser renders the page correctly. Without it, browsers may render the page in "quirks mode," leading to inconsistent display across different browsers.
+The `<!DOCTYPE>` declaration serves as an instruction to the browser about which version of HTML or XHTML is being used to render the page.
+ For example, `<!DOCTYPE html>` specifies that the document is using HTML5.
+  It is not an HTML tag but an instruction placed at the start of the HTML document to ensure the browser renders the page correctly.
+   Without it, browsers may render the page in "quirks mode," leading to inconsistent display across different browsers.
  
+In summary, the doctype declaration is a critical component of HTML documents that specifies the version of HTML or XHTML being used, ensuring consistent rendering and adherence to web standards across various browsers and platforms.
 
 ----
 
@@ -1264,20 +1270,83 @@ script.js i.e <script src="script.js"></script>
 ------------------------
 
 
+Q 41) What is SVG in HTML?
+
+**Answer:**
+
+**SVG** stands for **Scalable Vector Graphics**, and it is a language for describing 2D graphics in XML format. In HTML, SVG is used to define vector-based graphics directly within the webpage, allowing for images that can scale infinitely without losing quality, unlike raster images (like JPEG or PNG) that become pixelated when resized.
+
+SVGs are ideal for icons, logos, charts, and illustrations because they remain sharp at any size. SVG elements can also be styled with CSS and manipulated with JavaScript, making them interactive and customizable.
+
+In short, **SVG** in HTML is used to create high-quality, scalable graphics that can be controlled through CSS and JavaScript.
+
+
+example :--
+```html
+<svg width="100" height="100">    
+ <circle cx="50" cy="50" r="40" stroke="yellow" stroke-width="4" fill="red" />    
+</svg>
+```   
+
+------------------------------------------
+
+Q42) What are the differences between HTML and HTML5?
+
+**Interview Answer:**
+
+HTML and HTML5 are both markup languages used for creating web pages. The main difference between HTML and HTML5 is that HTML5 is the latest version and comes with several new features and improvements compared to the older version.
+
+1. **Semantic Tags**:  First HTML5 introduced semantic tags like `<header>`, `<footer>`, `<section>`, and `<article>`, which provide better structure to web pages. Earlier versions of HTML did not have these tags, and developers had to use `<div>` for everything.
+
+2. **APIs and DOM**:  Secondly HTML5 introduced new APIs and features like Geolocation, and even lets us draw graphics directly on the page with the <canvas> element. These were not available in earlier versions.
+
+3. **Multimedia Support**: Another big improvement is In HTML5, you can now embed audio and video directly using the `<audio>` and `<video>` tags, while in older versions, you needed external plugins like Flash.
+
+4. **Simplified DOCTYPE**:  HTML5 also made the  `DOCTYPE declaration` much simpler .Before it was long and complicated but now its just `<!DOCTYPE html>`, making it easier to write.
+
+5. **New Attributes**: 
+Lastly, HTML5 introduced new `attributes` like `charset` , for specifying character encoding, and async, attribute which helps control how scripts are loaded, both of which are improvements over the older versions.
+
+So overall, HTML5 provides a more efficient and modern way to build web pages, making it much better suited for today's web development needs.
 
 
 
+------------------------------
+
+
+**Q43): What is the display property? What are some display properties?**
+
+**IntvAns:**  
+The `display` property in CSS determines how an HTML element is rendered on the web page. It defines the layout behavior of an element, such as whether it takes up the full width of its container, flows with the text, or aligns with other elements.
+
+**Common display properties:**
+
+1. **`block`**  
+   Elements with `display: block;` take up the full width of their container, start on a new line, and stack vertically. Example: `<div>`, `<p>`, `<h1>`.
+   
+2. **`inline`**  
+   Elements with `display: inline;` only take up as much width as necessary, do not start on a new line, and flow with the surrounding text. Example: `<span>`, `<a>`, `<strong>`.
+
+3. **`inline-block`**  
+   Elements with `display: inline-block` behave like inline elements but it can have dimensions (width, height) like block elements. Example: `<button>`, `<input>`, `<select>`.
+
+4. **`none`**  
+   Elements with `display: none;` are not rendered on the page and take up no space. This is often used to hide elements completely.
+
+5. **`flex`**  
+   Elements with `display: flex;` create flexible layouts where child elements can be aligned and distributed within a container. It enables horizontal and vertical alignment control. Example: Used in layouts like navigation bars and grids.
+
+6. **`grid`**  
+   Elements with `display: grid;` use a grid-based layout system, allowing for precise control of rows and columns. Example: Creating multi-column layouts.
+
+7. **`inline-flex`**  
+   Similar to `flex`, but the element itself remains inline, meaning it doesn't start on a new line. It is often used for horizontally aligned elements within a line of text.
+
+These display properties are essential for controlling how elements are structured and interact on a webpage.
 
 
 
-
-
-## abhi bs yhi tk likho isse upar tk ka
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Q 41)
-
-18) What is SVG in HTML?
+Q 44)
 
 20) Define multipart form data ?(see interview bit)
 
@@ -1289,6 +1358,12 @@ Q 41)
 
 30) Explain the layout of HTML fully.
 
+Ans -- see gfg 44 wala notepad and crio answer of fe 101 
+
+
+
+## abhi bs yhi tk likho isse upar tk ka
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 32) Please explain how to indicate the character set being used by a document in HTML?(SEE INTERIEW BIT)
 
