@@ -1483,12 +1483,26 @@ Q44.1)Explain the layout of HTML?
 Ans --- HTML layout specifies how our html document is structured using the elements. and every
 HTML document have certain elements which are used to define the different parts of our webpage such as.
 
-<header>: It is used to define a header for a document or a section.
-<nav>: It is used to define a container for navigation links
-<section>: It is used to define a section in a document
-<article>: It is used to define an independent, self-contained article
-<aside>: It is used to define content aside from the content (like a sidebar)
-<footer>: It is used to define a footer for a document or a section
+```html
+<header>
+  : It is used to define a header for a document or a section.
+  <nav>
+    : It is used to define a container for navigation links
+    <section>
+      : It is used to define a section in a document
+      <article>
+        : It is used to define an independent, self-contained article
+        <aside>
+          : It is used to define content aside from the content (like a sidebar)
+          <footer>
+            : It is used to define a footer for a document or a section
+          </footer>
+        </aside>
+      </article>
+    </section>
+  </nav>
+</header>
+```
 
 ---
 
@@ -4855,9 +4869,9 @@ By implementing these strategies, you can significantly enhance website performa
 
 ---
 
-Q126) Are <br> tags the only way to separate sections of text?
+Q126) Are `<br>` tags the only way to separate sections of text?
 
-Ans --No. The <br> tag is only one way to separate lines of text. Other tags, like the <p> tag and <blockquote> tag, also separate sections of text.
+Ans --No. The `<br>` tag is only one way to separate lines of text. Other tags, like the `<p> `tag and `<blockquote>` tag, also separate sections of text.
 
 ---
 
@@ -4888,23 +4902,30 @@ Ans -- HTML5 supports two kinds of graphics:
 
 Canvas - It is like drawing on a whitepaper or a blank webpage. We can add different graphic designs on web pages with available methods for drawing various geometrical shapes.
 
-<!DOCTYPE HTML>
-<html>
- <head>
- </head>
- <body>
-   <canvas width="300" height="100" style="border:2px solid;"></canvas>  
- </body>
-</html>
-SVG - Scalable Vector Graphics are used mostly for diagrams or icons. It follows the XML format.
+```html
 <!DOCTYPE html>
 <html>
- <body>
-   <svg width="400" height="110">
-     <rect width="300" height="100" style="fill:#FFF;stroke-width:2;stroke:#000" />
-   </svg>
- </body>
+  <head> </head>
+  <body>
+    <canvas width="300" height="100" style="border:2px solid;"></canvas>
+  </body>
 </html>
+SVG - Scalable Vector Graphics are used mostly for diagrams or icons. It follows
+the XML format.
+<!DOCTYPE html>
+<html>
+  <body>
+    <svg width="400" height="110">
+      <rect
+        width="300"
+        height="100"
+        style="fill:#FFF;stroke-width:2;stroke:#000"
+      />
+    </svg>
+  </body>
+</html>
+```
+
 Both of the above examples produce this output and represent two different approaches provided by HTML5 to implement graphical aspects in the webpage.
 
 Difference between Svg and canvas:---
