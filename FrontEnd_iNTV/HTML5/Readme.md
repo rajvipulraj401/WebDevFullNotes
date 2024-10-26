@@ -4024,13 +4024,15 @@ The `<details>` and `<summary>` tags are used together to create a collapsible s
 
 Here's an example to show how they work together:
 
-````html
+```html
 <details>
   <summary>More Information</summary>
   <p>Here are some additional details that can be viewed or hidden on demand.</p>
 </
 
-----
+```
+
+---
 
 Q99)What is a datalist tag?
 
@@ -4043,13 +4045,13 @@ Here's an example to demonstrate how the `<datalist>` works:
 ```html
 <label>
   Enter your favorite cricket player: Press any character<br />
-  <input type="text" id="favCktPlayer" list="CktPlayers">
+  <input type="text" id="favCktPlayer" list="CktPlayers" />
   <datalist id="CktPlayers">
-    <option value="Sachin ">
-    <option value="Lara">
+    <option value="Sachin "></option>
+    <option value="Lara"></option>
   </datalist>
 </label>
-````
+```
 
 In this example, when we start typing in the input field, a dropdown list appears with the suggested cricket players. We can then pick an option from the list or continue typing to narrow down the choices. This helps improve the user experience by making data entry quicker and more convenient.
 
