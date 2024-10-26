@@ -1483,26 +1483,12 @@ Q44.1)Explain the layout of HTML?
 Ans --- HTML layout specifies how our html document is structured using the elements. and every
 HTML document have certain elements which are used to define the different parts of our webpage such as.
 
-```html
-<header>
-  : It is used to define a header for a document or a section.
-  <nav>
-    : It is used to define a container for navigation links
-    <section>
-      : It is used to define a section in a document
-      <article>
-        : It is used to define an independent, self-contained article
-        <aside>
-          : It is used to define content aside from the content (like a sidebar)
-          <footer>
-            : It is used to define a footer for a document or a section
-          </footer>
-        </aside>
-      </article>
-    </section>
-  </nav>
-</header>
-```
+`<header>`: It is used to define a header for a document or a section.
+`<nav>`: It is used to define a container for navigation links
+`<section>`: It is used to define a section in a document
+`<article>`: It is used to define an independent, self-contained article
+`<aside>`: It is used to define content aside from the content (like a sidebar)
+`<footer>`: It is used to define a footer for a document or a section
 
 ---
 
@@ -1520,7 +1506,9 @@ In HTML, _dead links_ refer to hyperlinks that do not lead to any valid destinat
    <a href="#">Click Here</a>
    ```
 
-   - This link will scroll to the top of the page if clicked. It’s considered a dead link because it doesn't navigate to a new URL.
+`````
+
+- This link will scroll to the top of the page if clicked. It’s considered a dead link because it doesn't navigate to a new URL.
 
 2. **Using `javascript:void(0)`:**
    ```html
@@ -2700,16 +2688,16 @@ Q64) What are root, parent, child & nested elements?
 
 In HTML, elements are structured in a hierarchy where terms like root, parent, child, and nested describe their relationships:
 
-1. **Root Element:**  
+1. **Root Element:**
    The root element is the top-level element in an HTML document. In most cases, the `<html>` element is considered the root element. It contains all other elements on the webpage.
 
-2. **Parent Element:**  
+2. **Parent Element:**
    A parent element is an element that contains other elements inside it. For example, if an element is placed inside a `<div>`, the `<div>` becomes the parent element.
 
-3. **Child Element:**  
+3. **Child Element:**
    A child element is an element nested within a parent element. If a `<p>` element is placed inside a `<div>`, then the `<p>` element is considered a child of the `<div>`.
 
-4. **Nested Element:**  
+4. **Nested Element:**
    Nested elements are elements placed inside other elements. They can be children, grandchildren, or further descendants in the hierarchy.
 
 **Example Code:**
@@ -4052,7 +4040,7 @@ Here's an example to demonstrate how the `<datalist>` works:
     <option value="Lara">
   </datalist>
 </label>
-````
+`````
 
 In this example, when we start typing in the input field, a dropdown list appears with the suggested cricket players. We can then pick an option from the list or continue typing to narrow down the choices. This helps improve the user experience by making data entry quicker and more convenient.
 
