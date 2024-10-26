@@ -4057,14 +4057,14 @@ In this example, when we start typing in the input field, a dropdown list appear
 
 ---
 
-Q99.1) Is the <datalist> tag and <select >tag same?
+Q99.1) Is the `<datalist>` tag and `<select >`tag same?
 
-Ans--No. The <datalist> tag and <select> tag are different. In the case of <select> tag a user will have to choose from a list of options, whereas <datalist> when used along with the <input> tag provides a suggestion that the user selects one of the options given or can enter some entirely different value.
+Ans--No. The `<datalist>` tag and `<select>` tag are different. In the case of `<select>` tag a user will have to choose from a list of options, whereas `<datalist> `when used along with the `<input>` tag provides a suggestion that the user selects one of the options given or can enter some entirely different value.
 
 ---
 
 Q100)What is the use of figcaption tag in HTML 5?
-ANs --The <figcaption> element is used to provide a caption to an image. It is an optional tag and can appear before or after the content within the <figure> tag. The <figcaption> element is used with <figure> element and it can be placed as the first or last child of the <figure> element.
+ANs --The `<figcaption> `element is used to provide a caption to an image. It is an optional tag and can appear before or after the content within the` <figure>` tag. The `<figcaption>` element is used with `<figure>` element and it can be placed as the first or last child of the `<figure>` element.
 
 ```html
 <figure>
@@ -4072,20 +4072,6 @@ ANs --The <figcaption> element is used to provide a caption to an image. It is a
   <figcaption>
     Fig.1.1 - A front view of the great Taj Mahal in Agra.
   </figcaption>
-</figure>
-```
-
----
-
-Q101) What is the use of figure tag in HTML 5?
-
-Ans--The figure tag is used to add a photo in the document on the web page. It is used to handle the group of diagrams, photos, code listing with some embedded content.
-
-<p>The Taj Mahal is widely recognized as "the jewel of Muslim art in India and one of the universally admired masterpieces of the world's heritage."</p>
-
-```html
-<figure>
-  <img src="htmlpages/images/tajmahal.jpg" alt="Taj Mahal" />
 </figure>
 ```
 
