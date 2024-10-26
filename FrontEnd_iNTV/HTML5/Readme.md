@@ -2776,7 +2776,7 @@ The `defer` and `async` attributes are used in the `<script>` tag to control how
 
 In summary, use `defer` for scripts that need to run after the document is fully loaded and use `async` for scripts that can run as soon as they are ready, regardless of the HTML parsing state.
 
-![Alt Text](https://github.com/rajvipulraj401/WebDevFullNotes/tree/main/FrontEnd_iNTV/HTML5/deferVsAsync.png)
+<!-- ![Alt Text](https://github.com/rajvipulraj401/WebDevFullNotes/tree/main/FrontEnd_iNTV/HTML5/deferVsAsync.png) -->
 
 ![Description of the Image](./deferVsAsync.png)
 
