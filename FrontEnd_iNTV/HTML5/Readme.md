@@ -1804,6 +1804,8 @@ The `<table>`, `<tr>`, `<th>`, and `<td>` elements in HTML are used to create an
 - **Responsive design issues**: Tables can be challenging to display on small screens.
 - **Slower page loading**: Large tables can slow down page rendering, especially on mobile devices.
 
+---
+
 Q52) What is the title tag in HTML? What are the 4 advantages of the title tag?
 
 **IntvAns:**
@@ -1818,13 +1820,7 @@ Third, the title tag is important for bookmarking and sharing; it’s often used
 
 Q53) How many types of inline tags are there bcause IMG is an inline element but it can have height and width as height and width cannot be given to HTML elements?
 
-Ans -- Inline elements can indeed be categorized into two main types based on their behavior concerning dimensions:(THAT'S why we can specify height and width in img tag)
-
-### 1. **Inline Replaced Elements**
-
-IntvAns :---Here's an interview-style answer that incorporates your points about the `<img>` element and inline elements:
-
----
+Ans -- Inline elements can be categorized into two main types based on their behavior concerning dimensions:(THAT'S why we can specify height and width in img tag)
 
 **IntvAns:**
 
@@ -1832,6 +1828,8 @@ In HTML, we have different types of inline elements that are inline replace elem
 For example, `<span>` is an inline non-replaced element, which means it cannot have width and height properties applied to it and relies on the content it contains. On the other hand, the `<img>` element is a replaced element, which means we can specify its dimensions using the `width` and `height` attributes .
 
 ---
+
+### 1. **Inline Replaced Elements**
 
 These elements can have their dimensions defined explicitly, allowing for the use of width and height properties. They replace their content with external resources. Examples include:
 
