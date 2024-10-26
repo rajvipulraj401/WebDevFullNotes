@@ -4637,7 +4637,11 @@ Ans --It forces a user to fill text on the text field or text area before submit
 
 Example:
 
-## Name: <input type="text" name="name" required>
+## Name:
+
+```html
+<input type="text" name="name" required />
+```
 
 ---
 
