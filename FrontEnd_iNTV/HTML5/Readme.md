@@ -4044,6 +4044,12 @@ In this example, when we start typing in the input field, a dropdown list appear
 
 ---
 
+Q99.1) Is the <datalist> tag and <select >tag same?
+
+Ans--No. The <datalist> tag and <select> tag are different. In the case of <select> tag a user will have to choose from a list of options, whereas <datalist> when used along with the <input> tag provides a suggestion that the user selects one of the options given or can enter some entirely different value.
+
+---
+
 Q100)What is the use of figcaption tag in HTML 5?
 ANs --The <figcaption> element is used to provide a caption to an image. It is an optional tag and can appear before or after the content within the <figure> tag. The <figcaption> element is used with <figure> element and it can be placed as the first or last child of the <figure> element.
 
@@ -4848,7 +4854,7 @@ Ans --No. The <br> tag is only one way to separate lines of text. Other tags, li
 
 ---
 
-Q127)20. What is the Application Cache in HTML5 and why it is used?
+Q127) What is the Application Cache in HTML5 and why it is used?
 
 Ans --The Application Cache concept means that a web application is cached. It can be accessed without the need for an internet connection.
 
@@ -4866,3 +4872,113 @@ Ans --Two main benefits of HTML5 Web Storage:
 
 It can store up to 10 MB of data which is certainly more than what cookies have.
 Web storage data cannot be transferred with the HTTP request. It helps to increase the performance of the application.
+
+---
+
+Q129) Explain HTML5 Graphics. What is the difference between Svg and canvas in Html5?
+
+Ans -- HTML5 supports two kinds of graphics:
+
+Canvas - It is like drawing on a whitepaper or a blank webpage. We can add different graphic designs on web pages with available methods for drawing various geometrical shapes.
+
+<!DOCTYPE HTML>
+<html>
+ <head>
+ </head>
+ <body>
+   <canvas width="300" height="100" style="border:2px solid;"></canvas>  
+ </body>
+</html>
+SVG - Scalable Vector Graphics are used mostly for diagrams or icons. It follows the XML format.
+<!DOCTYPE html>
+<html>
+ <body>
+   <svg width="400" height="110">
+     <rect width="300" height="100" style="fill:#FFF;stroke-width:2;stroke:#000" />
+   </svg>
+ </body>
+</html>
+Both of the above examples produce this output and represent two different approaches provided by HTML5 to implement graphical aspects in the webpage.
+
+Difference between Svg and canvas:---
+
+| **SVG**                                                                                                                                              | **Canvas**                                                                                                                                                                   |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Vector-Based**: SVG is composed of shapes defined by mathematical equations, allowing for smooth scaling without loss of quality.                  | **Raster-Based**: Canvas is made up of pixels, meaning images can become pixelated when scaled up.                                                                           |
+| **Best for Larger Surfaces**: SVG is more efficient for large graphics like maps and infographics, where clarity and scalability are crucial.        | **Best for Smaller Surfaces**: Canvas performs better for smaller graphics, such as game elements or dynamic visualizations, due to its performance efficiency in rendering. |
+| **Can be modified using CSS and Script**: SVG elements can be styled with CSS and manipulated with scripts, allowing for greater design flexibility. | **Script-Only Modification**: Canvas requires JavaScript to modify its content, as it doesn't have a DOM structure like SVG, making it less flexible for styling.            |
+| **Highly Scalable**: SVG images can be resized without losing quality, making them suitable for high-resolution printing and responsive design.      | **Less Scalable**: Canvas drawings are fixed in resolution and may lose quality when resized, limiting their use in scenarios that require high resolution.                  |
+
+---
+
+Q130) What are the New tags in Media Elements in HTML5?
+
+Ans ---
+
+- <audio> - Used for sounds, audio streams, or music, embed audio content without any additional plug-in.
+- <video> - Used for video streams, embed video content etc.
+- <source> - Used for multiple media resources in media elements, such as audio, video, etc.
+- <embed> - Used for an external application or embedded content.
+- <track> - Used for subtitles in the media elements such as video or audio.
+
+```html
+<label> Video: </label>
+<video width="320" height="240" controls>
+  <source src="video.mp4" type="video/mp4" />
+  <track src="subtitles.vtt" kind="subtitles" srclang="en" label="English" />
+</video>
+<br />
+<label> Embed: </label>
+<embed
+  type="video/webm"
+  src="https://www.youtube.com/embed/MpoE6s2psCw"
+  width="400"
+  height="300"
+/>
+<br />
+<label> Audio: </label>
+<audio controls>
+  <source src="audio.mp3" type="audio/mpeg" />
+</audio>
+```
+
+---
+
+Q 131) . Which tag is used for representing the result of a calculation? Explain its attributes.
+
+Ans ----The `<output>` tag in HTML is used to display the result of a calculation or user action within a form. It has the following attributes:
+It helps provide feedback to users based on input values.
+
+### Attributes of the `<output>` Tag
+
+| **Attribute** | **Description**                                                                                                                          |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| **for**       | Specifies the relationship between the `<output>` element and the elements used for the calculation. It can reference multiple elements. |
+| **form**      | This is used to define the form the output element belongs to.. This is useful when the output is generated from inputs in that form.    |
+| **name**      | Defines a name for the output element, which can be useful for script access.                                                            |
+
+### Example Usage
+
+Here's an example that demonstrates how to use the `<output>` tag within a form to display the sum of two numbers:
+
+```html
+<form oninput="result.value=parseInt(n1.value)+parseInt(n2.value)">
+  <input type="number" name="n1" value="1" /> +
+  <input type="number" name="n2" value="2" /><br />
+  The output is: <output name="result"></output>
+</form>
+```
+
+### Visual Representation of the Output
+
+| Input 1 | Input 2 | Output |
+| ------- | ------- | ------ |
+| 1       | 2       | 3      |
+
+### How It Works
+
+1. The user can enter numbers in the two input fields.
+2. The `oninput` event triggers every time the user changes either input.
+3. The result of the calculation (sum of the two inputs) is automatically displayed in the `<output>` tag.
+
+---
