@@ -1511,8 +1511,6 @@ In HTML, _dead links_ refer to hyperlinks that do not lead to any valid destinat
    <a href="#">Click Here</a>
    ```
 
-`````
-
 - This link will scroll to the top of the page if clicked. It’s considered a dead link because it doesn't navigate to a new URL.
 
 2. **Using `javascript:void(0)`:**
@@ -4045,7 +4043,7 @@ Here's an example to demonstrate how the `<datalist>` works:
     <option value="Lara">
   </datalist>
 </label>
-`````
+````
 
 In this example, when we start typing in the input field, a dropdown list appears with the suggested cricket players. We can then pick an option from the list or continue typing to narrow down the choices. This helps improve the user experience by making data entry quicker and more convenient.
 
