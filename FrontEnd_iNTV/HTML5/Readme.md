@@ -1484,10 +1484,15 @@ Ans --- HTML layout specifies how our html document is structured using the elem
 HTML document have certain elements which are used to define the different parts of our webpage such as.
 
 `<header>`: It is used to define a header for a document or a section.
+
 `<nav>`: It is used to define a container for navigation links
+
 `<section>`: It is used to define a section in a document
+
 `<article>`: It is used to define an independent, self-contained article
+
 `<aside>`: It is used to define content aside from the content (like a sidebar)
+
 `<footer>`: It is used to define a footer for a document or a section
 
 ---
