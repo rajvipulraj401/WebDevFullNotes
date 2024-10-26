@@ -3867,17 +3867,27 @@ const productPrice = productDiv.dataset.price; // "999.99"
 Q92) What are the various formatting tags in HTML?
 Ans -- HTML has various formatting tags:
 
-<b> - makes text bold
-<i> - makes text italic
-<em> - makes text italic but with added semantics importance
-<big> - increases the font size of the text by one unit
-<small> - decreases the font size of the text by one unit
-<sub> - makes the text a subscript
-<sup> - makes the text a superscript
-<del> - displays as strike out text
-<strong> - marks the text as important
-<mark> - highlights the text
-<ins> - displays as added text
+`<b>` - makes text bold
+
+`<i>` - makes text italic
+
+`<em>` - makes text italic but with added semantics importance
+
+`<big>` - increases the font size of the text by one unit
+
+`<small>` - decreases the font size of the text by one unit
+
+`<sub>` - makes the text a subscript
+
+`<sup>` - makes the text a superscript
+
+`<del>` - displays as strike out text
+
+`<strong>` - marks the text as important
+
+`<mark> `- highlights the text
+
+`<ins>` - displays as added text
 
 ---
 
