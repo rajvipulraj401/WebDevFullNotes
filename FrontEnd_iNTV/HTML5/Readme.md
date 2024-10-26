@@ -2241,8 +2241,6 @@ The difference between `display: none` and `visibility: hidden` in CSS is signif
 - **`display: none`**: The element is completely removed from the layout; it doesn't take up any space.
 - **`visibility: hidden`**: The element is hidden but still occupies space in the layout.
 
-Understanding the difference between these two properties is important for effectively managing the visibility and layout of elements in your web pages.
-
 ---
 
 Q 61.2) What is a button tag?
@@ -2300,7 +2298,7 @@ for example, `<meta charset="UTF-8">` specifies that the character encoding is U
 
 ---
 
-# Intermediate Html question not important as the previous basic ones -----------(Till 53 imp questions)----
+# Intermediate Html question not important as the previous basic ones -----------(Till 62 imp questions)----
 
 Q 62) What are different types of Html attributes ?
 
@@ -2982,11 +2980,11 @@ Q 72) What is the role of heading tags in HTML? How many types of heading does a
 
 **IntvAns:**
 
-In HTML, headings tags are used to provide heading to our content and There are six types of heading tags, ranging from <h1> to <h6>.
+In HTML, headings tags are used to provide heading to our content and There are six types of heading tags, ranging from `<h1>` to `<h6>`.
 
 **Role of Heading Tags:**
 
-where The <h1> tag represents the main title of the page and is usually the most important heading. and then The <h2> to <h6> tags represent subheadings, with <h2> being the next most important, followed by <h3>, and so on.
+where The `<h1>` tag represents the main title of the page and is usually the most important heading. and then The `<h2> ` to `<h6>` tags represent subheadings, with `<h2>` being the next most important, followed by `<h3>`, and so on.
 
 - These tags help organize content, making it easier for users to read and navigate. They create a clear structure, guiding the reader through the information presented on the page.
 
