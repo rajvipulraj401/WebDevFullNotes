@@ -1358,12 +1358,6 @@ So overall, HTML5 provides a more efficient and modern way to build web pages, m
 
 **Q43): What is the display property? What are some display properties?**
 
-Here's an updated version of your answer with additional display properties, ensuring the original structure remains intact.
-
----
-
-**Q43): What is the display property? What are some display properties?**
-
 **IntvAns:**  
 The `display` property in CSS determines how an HTML element is rendered on the web page. It defines the layout behavior of an element, such as whether it takes up the full width of its container, flows with the text, or aligns with other elements.
 
