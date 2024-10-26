@@ -4053,10 +4053,14 @@ Ans--No. The <datalist> tag and <select> tag are different. In the case of <sele
 Q100)What is the use of figcaption tag in HTML 5?
 ANs --The <figcaption> element is used to provide a caption to an image. It is an optional tag and can appear before or after the content within the <figure> tag. The <figcaption> element is used with <figure> element and it can be placed as the first or last child of the <figure> element.
 
-<figure>    
-  <img src="htmlpages/images/tajmahal.jpg" alt="Taj Mahal"/>    
-<figcaption>Fig.1.1 - A front view of the great Taj Mahal in Agra.</figcaption>    
+```html
+<figure>
+  <img src="htmlpages/images/tajmahal.jpg" alt="Taj Mahal" />
+  <figcaption>
+    Fig.1.1 - A front view of the great Taj Mahal in Agra.
+  </figcaption>
 </figure>
+```
 
 ---
 
@@ -4064,10 +4068,13 @@ Q101) What is the use of figure tag in HTML 5?
 
 Ans--The figure tag is used to add a photo in the document on the web page. It is used to handle the group of diagrams, photos, code listing with some embedded content.
 
-<p>The Taj Mahal is widely recognized as "the jewel of Muslim art in India and one of the universally admired masterpieces of the world's heritage."</p>    
-<figure>    
-  <img src="htmlpages/images/tajmahal.jpg" alt="Taj Mahal"/>    
+<p>The Taj Mahal is widely recognized as "the jewel of Muslim art in India and one of the universally admired masterpieces of the world's heritage."</p>
+
+```html
+<figure>
+  <img src="htmlpages/images/tajmahal.jpg" alt="Taj Mahal" />
 </figure>
+```
 
 ---
 
