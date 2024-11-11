@@ -3860,7 +3860,8 @@ const productPrice = productDiv.dataset.price; // "999.99"
 
 3. **Enhanced Readability**: Using data attributes can improve the readability of your HTML by clearly indicating what data is associated with each element.
 
-## In summary, data attributes are a practical way to add custom information to HTML elements, allowing for better interaction with JavaScript and improved organization of your code.
+## In summary, data attributes In HTML provide a way to add custom data attributes to add 
+ additional information in elements and  allowing for better interaction with JavaScript and improved organization of your code.
 
 ---
 
